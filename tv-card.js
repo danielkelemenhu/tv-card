@@ -54,10 +54,10 @@ class TVCardServices extends LitElement {
               title="Sony"
             ></paper-icon-button>
             <paper-icon-button
-              .action="${""}"
+              .action="${"box"}"
               @click="${this.handleActionClick}"
-              icon=""
-              title=""
+              icon="mdi:set-top-box"
+              title="Xiaomi Box"
             ></paper-icon-button>
             <paper-icon-button
               .action="${"power_tv"}"
@@ -251,6 +251,7 @@ class TVCardServices extends LitElement {
   handleActionClick(e) {
     const custom_services = [
       "power_sony",
+      "box",
       "power_tv",
       "volume_up",
       "volume_down",
