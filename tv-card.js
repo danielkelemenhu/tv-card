@@ -48,10 +48,10 @@ class TVCardServices extends LitElement {
           </div>
           <div class="row">
             <paper-icon-button
-              .action="${"power"}"
+              .action="${"power_sony"}"
               @click="${this.handleActionClick}"
               icon="mdi:speaker"
-              title="Speaker"
+              title="Sony"
             ></paper-icon-button>
             <paper-icon-button
               .action="${""}"
@@ -60,10 +60,10 @@ class TVCardServices extends LitElement {
               title=""
             ></paper-icon-button>
             <paper-icon-button
-              .action="${"power"}"
+              .action="${"power_tv"}"
               @click="${this.handleActionClick}"
-              icon="mdi:power"
-              title="Power"
+              icon="mdi:television"
+              title="Television"
             ></paper-icon-button>
 
           </div>
@@ -250,7 +250,8 @@ class TVCardServices extends LitElement {
 
   handleActionClick(e) {
     const custom_services = [
-      "power",
+      "power_sony",
+      "power_tv",
       "volume_up",
       "volume_down",
       "volume_mute",
