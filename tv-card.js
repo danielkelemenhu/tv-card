@@ -78,7 +78,7 @@ class TVCardServices extends LitElement {
               .action="${"source"}"
               @click="${this.handleActionClick}"
               icon="mdi:video-input-hdmi"
-              title="Source"
+              title="Box input"
             ></paper-icon-button>
             <paper-icon-button
               .action="${"home"}"
@@ -100,8 +100,8 @@ class TVCardServices extends LitElement {
             <paper-icon-button
               .action="${"info"}"
               @click="${this.handleActionClick}"
-              icon="mdi:television-guide"
-              title="Guide"
+              icon="mdi:television-box"
+              title="TV input"
             ></paper-icon-button>
             <paper-icon-button
               .action="${"channeldown"}"
@@ -113,23 +113,12 @@ class TVCardServices extends LitElement {
           </div>
 
           <div class="row">
-            <paper-icon-button
-              .action="${"input_tv"}"
-              @click="${this.handleActionClick}"
-              icon="mdi:television-box"
-              title="TV input"
-            ></paper-icon-button>
+
             <paper-icon-button
               .action="${"up"}"
               @click="${this.handleActionClick}"
               icon="mdi:chevron-up"
               title="Up"
-            ></paper-icon-button>
-            <paper-icon-button
-              .action="${"input_box"}"
-              @click="${this.handleActionClick}"
-              icon="mdi:video-input-hdmi"
-              title="Box input"
             ></paper-icon-button>
           </div>
 
@@ -273,9 +262,7 @@ class TVCardServices extends LitElement {
       "info",
       "home",
 	  "channelup",
-	  "channeldown",
-      "input_tv",
-      "input_box",	    
+	  "channeldown",	    
       "up",
       "left",
       "select",
