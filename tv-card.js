@@ -50,8 +50,8 @@ class TVCardServices extends LitElement {
             <paper-icon-button
               .action="${"power"}"
               @click="${this.handleActionClick}"
-              icon="mdi:power"
-              title="Power"
+              icon="mdi:speaker"
+              title="Speaker"
             ></paper-icon-button>
             <paper-icon-button
               .action="${""}"
