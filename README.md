@@ -1,5 +1,6 @@
 # TV Remote Card_custom
-This is a mod version for Logitech Harmony
+## This is a mod version for Logitech Harmony
+
 📺 [Roku Lovelace Card](https://github.com/custom-cards/roku-card) editited by mar_robHD
 
 [![GitHub Release][releases-shield]][releases]
